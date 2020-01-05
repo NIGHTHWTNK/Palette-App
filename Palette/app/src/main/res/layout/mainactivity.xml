@@ -22,7 +22,10 @@
             android:layout_height="80dp"
             android:layout_alignParentRight="true"
             android:layout_margin="20dp"
-            android:gravity="center"/>
+            android:gravity="center"
+            android:background="#ebe1dd"
+            android:text="236-203-202"
+            android:textSize="12dp"/>
 
         <TextView
             android:id="@+id/textBox"
@@ -43,36 +46,42 @@
         android:layout_weight="1">
 
         <Button
+            android:id="@+id/bt1"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
             android:background="#ebe1dd"/>
         <Button
+            android:id="@+id/bt2"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
             android:background="#eccbca"/>
         <Button
+            android:id="@+id/bt3"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
             android:background="#75839c"/>
         <Button
+            android:id="@+id/bt4"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
             android:background="#99a9bf"/>
         <Button
+            android:id="@+id/bt5"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
             android:background="#c3ccd8"/>
         <Button
+            android:id="@+id/bt6"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="match_parent"
